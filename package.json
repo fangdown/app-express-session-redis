@@ -1,0 +1,26 @@
+{
+  "name": "app-express-session-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fangdown/app-express-session-redis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fangdown/app-express-session-redis/issues"
+  },
+  "homepage": "https://github.com/fangdown/app-express-session-redis#readme",
+  "dependencies": {
+    "connect-redis": "^4.0.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "ioredis": "^4.14.1"
+  }
+}
